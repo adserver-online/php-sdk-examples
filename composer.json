@@ -1,0 +1,29 @@
+{
+    "name": "adserver-online/php-sdk-examples",
+    "description": "Adserver.Online PHP SDK examples",
+    "keywords": [
+        "adserver.online",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://adserver.online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adserver.Online",
+            "homepage": "https://adserver.online"
+        }
+    ],
+    "support": {
+        "email": "support@adsrv.org",
+        "docs": "https://adserver.online/api"
+    },
+    "require": {
+        "php": ">=7.0",
+        "adserver-online/php-sdk": "@dev",
+        "symfony/cache": "^5.0"
+    },
+    "require-dev": {
+    }
+}
