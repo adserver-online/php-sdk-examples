@@ -4,32 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d33833f667e85c4bc06dfca535098730",
+    "content-hash": "8ca6e28ab9b182b694e22ba8709a05c2",
     "packages": [
         {
             "name": "adserver-online/php-sdk",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adserver-online/php-sdk.git",
-                "reference": "4e0d98270794295882970ca691f8947e3398a329"
+                "reference": "4e7a0ff7df7077d6323d1f601b7fdd59a1d80eaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adserver-online/php-sdk/zipball/4e0d98270794295882970ca691f8947e3398a329",
-                "reference": "4e0d98270794295882970ca691f8947e3398a329",
+                "url": "https://api.github.com/repos/adserver-online/php-sdk/zipball/4e7a0ff7df7077d6323d1f601b7fdd59a1d80eaf",
+                "reference": "4e7a0ff7df7077d6323d1f601b7fdd59a1d80eaf",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.2",
-                "php": ">=7.0",
-                "symfony/cache": "^5.0"
+                "php": ">=7.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.12",
-                "squizlabs/php_codesniffer": "~2.6"
+                "friendsofphp/php-cs-fixer": "~2.16",
+                "squizlabs/php_codesniffer": "~2.9"
             },
             "type": "library",
             "autoload": {
@@ -55,7 +53,7 @@
                 "rest",
                 "sdk"
             ],
-            "time": "2020-06-26T13:20:23+00:00"
+            "time": "2020-06-26T15:45:44+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -989,9 +987,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "adserver-online/php-sdk": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
