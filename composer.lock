@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ca6e28ab9b182b694e22ba8709a05c2",
+    "content-hash": "7624ffc9aca749f33f8e12688c8f5260",
     "packages": [
         {
             "name": "adserver-online/php-sdk",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adserver-online/php-sdk.git",
-                "reference": "b2459d6c3e6be6c5febffaf0e3d77652d90fc073"
+                "reference": "974f3002aa409d38e836671b1c52555ab065ceec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adserver-online/php-sdk/zipball/b2459d6c3e6be6c5febffaf0e3d77652d90fc073",
-                "reference": "b2459d6c3e6be6c5febffaf0e3d77652d90fc073",
+                "url": "https://api.github.com/repos/adserver-online/php-sdk/zipball/974f3002aa409d38e836671b1c52555ab065ceec",
+                "reference": "974f3002aa409d38e836671b1c52555ab065ceec",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "rest",
                 "sdk"
             ],
-            "time": "2021-02-27T17:34:01+00:00"
+            "time": "2021-02-27T18:10:40+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1004,7 +1004,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0"
+        "php": ">=7.2"
     },
     "platform-dev": []
 }
