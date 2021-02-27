@@ -8,7 +8,7 @@ use Adserver\Model\CampaignRequest;
 
 $api = new CampaignsApi(null, $conf);
 
-$campaign = $api->getCampaign(51990);
+$campaign = $api->getCampaign(45592);
 
 var_dump($campaign);
 
@@ -23,7 +23,7 @@ foreach ($campaigns as $row) {
 $request = new CampaignRequest();
 $request->setIdrunstatus(4010); //run
 
-$res = $api->updateCampaign(51990, $request);
+$res = $api->updateCampaign(45592, $request);
 
 echo 'Current status: ', $res->getRunstatus()['name'], PHP_EOL;
 

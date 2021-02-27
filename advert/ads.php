@@ -4,12 +4,12 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 require_once __DIR__ . '/../obtain_token.php';
 
 use Adserver\Api\AdvAdsApi;
-use Adserver\Model\AdRequest;
+use Adserver\Model\AdvAdRequest;
 use Adserver\Model\AdBannerHtml;
 
 $api = new AdvAdsApi(null, $conf);
 
-$request = new AdRequest();
+$request = new AdvAdRequest();
 $request->setIsActive(1);
 $request->setName('adv test ad');
 $request->setUrl('http://example.com');
@@ -25,7 +25,7 @@ $res = $api->advCreateAd(51990, 3, $request);
 
 var_dump($res);
 
-$request = new AdRequest();
+$request = new AdvAdRequest();
 $request->setName('test-renamed');
 
 var_dump((string)$request);

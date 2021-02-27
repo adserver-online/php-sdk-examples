@@ -10,9 +10,9 @@ use Adserver\Model\AdRequest;
 $api = new AdsApi(null, $conf);
 
 $request = new AdRequest();
-$request->setIdcampaign(51990);
+$request->setIdcampaign(45592);
 $request->setIsActive(1);
-$request->setName('test image banner');
+$request->setName('vast linear ad');
 $request->setUrl('http://example.com');
 
 $details = new AdVastLinear();
