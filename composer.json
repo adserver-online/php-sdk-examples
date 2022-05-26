@@ -20,10 +20,11 @@
         "docs": "https://adserver.online/api"
     },
     "require": {
-        "php": ">=7.2",
-        "adserver-online/php-sdk": "1.1.*",
-        "symfony/cache": "^5.0"
+        "php": ">=7.4",
+        "adserver-online/php-sdk": "1.2.*"
     },
     "require-dev": {
     }
 }
+
+

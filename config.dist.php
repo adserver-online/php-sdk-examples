@@ -1,7 +1,5 @@
 <?php
 
-define('SERVER', 'demo');
-define('EMAIL', 'demo@example.com');
-define('PASSWORD', 'secret');
+define('TOKEN', 'demo'); // obtain it from your panel
 
 define('DEV_MODE', false);

@@ -1,7 +1,7 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../obtain_token.php';
+require_once __DIR__ . '/../init.php';
 
 use Adserver\Api\PubSitesApi;
 use Adserver\Model\PubSiteRequest;
