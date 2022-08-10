@@ -14,7 +14,7 @@ var_dump($campaign);
 
 echo 'Campaigns list', PHP_EOL;
 
-$campaigns = $api->getCampaignsList(1, 5);
+$campaigns = $api->getCampaigns(1, 5);
 
 foreach ($campaigns as $row) {
     echo $row->getId(), ': ', $row->getName(), ' ', $row->getStatus()['name'], ' ', $row->getRunstatus()['name'], PHP_EOL;

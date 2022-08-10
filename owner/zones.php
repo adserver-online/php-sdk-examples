@@ -8,6 +8,9 @@ use Adserver\Model\ZoneRequest;
 
 $api = new ZonesApi(null, $conf);
 
+$zones = $api->getZones(1342);
+echo 'Number of zones:', count($zones), PHP_EOL;
+
 $zone = $api->getZone(35954);
 
 var_dump($zone);

@@ -21,10 +21,8 @@
     },
     "require": {
         "php": ">=7.4",
-        "adserver-online/php-sdk": "1.2.*"
+        "adserver-online/php-sdk": "1.3.*"
     },
     "require-dev": {
     }
 }
-
-
